@@ -8,7 +8,7 @@ public class Ex9 {
         int idadeMaisNova = 0;
         String nomeMaisNova = "";
 
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < 3; i++){
             String nome = JOptionPane.showInputDialog("Digite seu nome");
             int idade = Integer.parseInt(JOptionPane.showInputDialog("Insira sua idade"));
             if(idade > 0 || idade < idadeMaisNova) {
